@@ -1,0 +1,14 @@
+Test: Dynamic Quiz Generation. About 5 to 7H
+ 
+Expected:
+  - Questions CRUD with difficulty. (only admin can add questions)
+  - Dynamic Questions paper generation for user based on all previous test result(s) and difficulty. (IMP)
+  - Old exam review
+  - APIs should be protected
+ 
+Ex:
+  - When the user is giving exam first time the question will have lower difficulty.
+  - but next time base on the score and ratio of questions difficulty generate next exam for instance if the last exam have 100% question of easy difficulty and got 70% score increase difficulty of 70% of the questions
+  - difficulty rating will be from 1 - 10 for each question.
+ 
+NOTE: DIFFICULTY WILL NOT BE BASED ON JUST LAST EXAM BUT ALL PREVIOUS EXAMS 

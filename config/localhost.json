@@ -1,0 +1,5 @@
+{
+    "url":"mongodb+srv://hetvi01:mongo_01@backenddb.oe9ottm.mongodb.net/Dynamic_Quiz_Generator?retryWrites=true&w=majority&appName=backendDB",
+    "port":3000,
+    "secret_key":"SECRETKEY"
+}
